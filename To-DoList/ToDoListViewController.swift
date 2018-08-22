@@ -51,6 +51,7 @@ class ToDoListViewController: UITableViewController
     {
         var textField = UITextField()
         
+        // Add Alert
         let alert = UIAlertController(title: "Add New To Do Item", message: "", preferredStyle: .alert)
         let action = UIAlertAction(title: "Add Item", style: .default) {
             (action) in
